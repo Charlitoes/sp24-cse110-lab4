@@ -1,0 +1,2 @@
+1.  The bug is that the data type that we use when retriving num1 and num2 is a string so when we add them together it actually concatenates the 2 numbers resulting in an incorrect value for the sum.
+2.  I would force the input to be parsed as a flaot so we for sure use a float when adding so we don't accidentally use strings to concatenate the 2 numbers together and so we can add decimal values as well.
